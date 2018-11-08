@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/QMUI/QMUIDemo_Web/master/public/style/images/independent/BannerForGithub_2x.png" width="220" alt="Banner" />
 </p>
 
-# QMUI Sass [![Version Number](https://img.shields.io/npm/v/qmui_sass.svg?style=flat)](https://github.com/QMUI/QMUI_Sass/ "Version Number")
+# QMUI Sass [![Version Number](https://img.shields.io/npm/v/qmui-sass.svg?style=flat)](https://github.com/QMUI/QMUI_Sass/ "Version Number")
 > Sass helper of QMUI Web, dealing with layout, appearance, device adaptation, math calculation and other SASS enhancement.
 >
 > Document：[http://qmuiteam.com/web/page/tools.html](http://qmuiteam.com/web/page/tools.html)
