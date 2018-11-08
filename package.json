@@ -1,0 +1,26 @@
+{
+    "name": "qmui_sass",
+    "version": "1.0.0",
+    "description": "Sass helper of QMUI Web, dealing with layout, appearance, device adaptation, math calculation and other SASS enhancement.",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/QMUI/QMUI_Sass.git"
+    },
+    "style": "qmui/_qmui.scss",
+    "sass": "qmui/_qmui.scss",
+    "devDependencies": {
+        "node-sass": "^4.10.0",
+        "stylelint-wechat-work-css": "^0.4.1"
+    },
+    "keywords": [
+        "QMUI",
+        "Sass",
+        "Mixin"
+    ],
+    "author": "QMUI Team",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/QMUI/QMUI_Sass/issues"
+    },
+    "homepage": "http://qmuiteam.com/web/tools.html"
+}
