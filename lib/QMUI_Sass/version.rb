@@ -1,3 +1,3 @@
 module QMUI_Sass
-  VERSION       = '3.3.7'
+  VERSION       = '1.0.0'
 end
