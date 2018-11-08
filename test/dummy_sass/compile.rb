@@ -1,5 +1,5 @@
 require 'sass'
-require 'bootstrap-sass'
+require 'QMUI_Sass'
 require 'fileutils'
 
 scss_path = File.expand_path('./test.sass', File.dirname(__FILE__))
