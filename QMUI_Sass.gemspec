@@ -5,7 +5,7 @@ require "QMUI_Sass/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "QMUI_Sass"
-  spec.version       = QMUISass::VERSION
+  spec.version       = QMUISass::Sass::VERSION
   spec.authors       = ["kayo5994"]
   spec.email         = ["qmuiteam@qq.com"]
 
@@ -27,4 +27,7 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.17"
   spec.add_development_dependency "rake", "~> 10.0"
+
+  #runtime dependencies
+  spec.add_runtime_dependency 'autoprefixer-rails', '>= 6.0.3'
 end

@@ -1,3 +1,5 @@
 module QMUISass
-  VERSION = "1.1.0"
+    module Sass
+        VERSION = "1.1.4"
+    end
 end

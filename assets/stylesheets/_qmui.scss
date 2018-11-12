@@ -21,12 +21,14 @@
  *
  */
 
+// 全局公共变量
+@import "qmui/var";
 
 // 常用 mixin 封装
-@import "mixin/_mixin";
+@import "qmui/mixin/mixin";
 
 // CSS Reset
-@import "_reset";
+@import "qmui/reset";
 
 // 常用样式（原子类）
-@import "_function";
+@import "qmui/function";
