@@ -39,7 +39,7 @@ Import QMUI Sass styles:
 @import "qmui"
 ```
     
-### d. npm / Node.js
+### npm / Node.js
 
 ```bash
 $ npm install qmui-sass
