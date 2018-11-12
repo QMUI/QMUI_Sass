@@ -34,7 +34,7 @@ Or install it yourself as:
 
     $ gem install QMUI_Sass
     
-Import Bootstrap styles:
+Import QMUI Sass styles:
 ```sass
 @import "qmui"
 ```
@@ -42,7 +42,7 @@ Import Bootstrap styles:
 ### d. npm / Node.js
 
 ```bash
-$ npm install bootstrap-sass
+$ npm install qmui-sass
 ```
 
 If you use webpack, you can import QMUI Sass like so:
