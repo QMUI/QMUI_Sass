@@ -1,5 +1,6 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-group :development do
-  gem 'byebug', platforms: [:mri_21, :mri_22], require: false
-end
+git_source(:github) {|repo_name| "https://github.com/QMUI/QMUI_Sass" }
+
+# Specify your gem's dependencies in QMUI_Sass.gemspec
+gemspec
