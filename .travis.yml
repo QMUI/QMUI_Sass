@@ -8,7 +8,7 @@ node_js:
   - "8.0"
   - "stable"
 before_install:
-  - curl -o- -L https://yarnpkg.com/install.sh | bash
+  - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 1.12.3
 before_script:
   - npm install -g node-sass
   - npm install
