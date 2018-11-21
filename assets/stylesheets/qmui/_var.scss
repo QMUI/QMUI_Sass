@@ -23,98 +23,98 @@
 @import "mixin/tool/calculate";
 
 // #common 通用
-$common_fontFamily: "Helvetica Neue", Helvetica, Verdana, san-serif;
-$common_fontSize: 14px;
-$common_body_background: #FFF;
-$common_body_color: #000;
-$common_color_link: #2685D2;
-$common_color_linkTapHighlight: rgba(105, 186, 255, .13);
-$common_color_separator: #CCCCCE;
-$common_color_border: $common_color_separator;
-$common_color_placeholder: #ADB4BE;
-$common_color_placeholderFocus: $common_color_placeholder;
-$common_zIndex_1: 10;
-$common_zIndex_2: 20;
-$common_zIndex_3: 30;
-$common_zIndex_4: 40;
-$common_zIndex_5: 50;
-$common_zIndex_6: 60;
-$common_zIndex_7: 70;
-$common_zIndex_8: 80;
-$common_zIndex_9: 90;
-$common_zIndex_10: 100;
+$common_fontFamily: "Helvetica Neue", Helvetica, Verdana, san-serif !default;
+$common_fontSize: 14px !default;
+$common_body_background: #FFF !default;
+$common_body_color: #000 !default;
+$common_color_link: #2685D2 !default;
+$common_color_linkTapHighlight: rgba(105, 186, 255, .13) !default;
+$common_color_separator: #CCCCCE !default;
+$common_color_border: $common_color_separator !default;
+$common_color_placeholder: #ADB4BE !default;
+$common_color_placeholderFocus: $common_color_placeholder !default;
+$common_zIndex_1: 10 !default;
+$common_zIndex_2: 20 !default;
+$common_zIndex_3: 30 !default;
+$common_zIndex_4: 40 !default;
+$common_zIndex_5: 50 !default;
+$common_zIndex_6: 60 !default;
+$common_zIndex_7: 70 !default;
+$common_zIndex_8: 80 !default;
+$common_zIndex_9: 90 !default;
+$common_zIndex_10: 100 !default;
 
 // #button 按钮组件
-$btn_minWidth: 46px;
-$btn_height: 30px;
-$btn_lineHeight: $btn_height;
-$btn_padding: 0 12px;
-$btn_background: #04C9E8;
-$btn_border: 1px solid transparent;
-$btn_fontSize: 13px;
-$btn_color: #FFF;
+$btn_minWidth: 46px !default;
+$btn_height: 30px !default;
+$btn_lineHeight: $btn_height !default;
+$btn_padding: 0 12px !default;
+$btn_background: #04C9E8 !default;
+$btn_border: 1px solid transparent !default;
+$btn_fontSize: 13px !default;
+$btn_color: #FFF !default;
 
 // #dialog 对话框组件
-$dialog_zIndex: $common_zIndex_10;
-$dialog_minWidth: 420px; // 对话框的最小宽度
-$dialog_background: #fff;
-$dialog_border: none;
-$dialog_radius: 5px;
+$dialog_zIndex: $common_zIndex_10 !default;
+$dialog_minWidth: 420px !default; // 对话框的最小宽度
+$dialog_background: #fff !default;
+$dialog_border: none !default;
+$dialog_radius: 5px !default;
 
-$dialog_head_background: #00C0E1;
-$dialog_head_borderBottom: none; // 对话框头部的下边线
+$dialog_head_background: #00C0E1 !default;
+$dialog_head_borderBottom: none !default; // 对话框头部的下边线
 
-$dialog_title_height: 40px;
-$dialog_title_fontSize: 14px;
-$dialog_title_fontWeight: bold;
-$dialog_title_color: #FFF;
-$dialog_title_lineHeight: $dialog_title_height;
+$dialog_title_height: 40px !default;
+$dialog_title_fontSize: 14px !default;
+$dialog_title_fontWeight: bold !default;
+$dialog_title_color: #FFF !default;
+$dialog_title_lineHeight: $dialog_title_height !default;
 
-$dialog_close_top: 5px;
-$dialog_close_right: 6px;
+$dialog_close_top: 5px !default;
+$dialog_close_right: 6px !default;
 
-$dialog_body_background: #fff;
+$dialog_body_background: #fff !default;
 
-$dialog_foot_background: $dialog_background; // 对话框底部的背景，默认与对话框的背景一样
-$dialog_foot_borderTop: $dialog_head_borderBottom; // 对话框底部的上边线，样式默认与对话框边线一样
+$dialog_foot_background: $dialog_background !default; // 对话框底部的背景，默认与对话框的背景一样
+$dialog_foot_borderTop: $dialog_head_borderBottom !default; // 对话框底部的上边线，样式默认与对话框边线一样
 
 // #mask 遮罩层组件
-$mask_zIndex: $common_zIndex_9;
-$maskWrap_zIndex: $mask_zIndex;
-$mask_background: #000;
-$mask_opacity: .5;
+$mask_zIndex: $common_zIndex_9 !default;
+$maskWrap_zIndex: $mask_zIndex !default;
+$mask_background: #000 !default;
+$mask_opacity: .5 !default;
 
 // #dropdownMenu 下拉菜单组件
-$dropdownMenu_zIndex: $common_zIndex_3;
-$dropdownMenu_background: #fff;
-$dropdownMenu_border: 1px solid $common_color_border;
-$dropdownMenu_ulPadding: 12px 0;
-$dropdownMenu_itemLink_height: 32px;
-$dropdownMenu_itemLink_lineHeight: $dropdownMenu_itemLink_height;
-$dropdownMenu_itemLink_padding: 0 15px;
-$dropdownMenu_itemLink_color: #000;
-$dropdownMenu_split_margin: 5px 0;
-$dropdownMenu_split_borderTop: 1px solid #ccc;
+$dropdownMenu_zIndex: $common_zIndex_3 !default;
+$dropdownMenu_background: #fff !default;
+$dropdownMenu_border: 1px solid $common_color_border !default;
+$dropdownMenu_ulPadding: 12px 0 !default;
+$dropdownMenu_itemLink_height: 32px !default;
+$dropdownMenu_itemLink_lineHeight: $dropdownMenu_itemLink_height !default;
+$dropdownMenu_itemLink_padding: 0 15px !default;
+$dropdownMenu_itemLink_color: #000 !default;
+$dropdownMenu_split_margin: 5px 0 !default;
+$dropdownMenu_split_borderTop: 1px solid #CCC !default;
 
 // #tab 选项卡组件
-$tab_background: #fff;
-$tab_head_background: $tab_background;
-$tabNav_padding: 0 16px;
-$tabNav_item_margin: 0 24px -1px 0;
-$tabNav_itemLink_height: 43px;
-$tabNav_itemLink_lineHeight: $tabNav_itemLink_height;
-$tabNav_itemLink_padding: 0;
-$tabNav_itemLink_background: transparent;
-$tabNav_itemLink_color: #858C96;
+$tab_background: #FFF !default;
+$tab_head_background: $tab_background !default;
+$tabNav_padding: 0 16px !default;
+$tabNav_item_margin: 0 24px -1px 0 !default;
+$tabNav_itemLink_height: 43px !default;
+$tabNav_itemLink_lineHeight: $tabNav_itemLink_height !default;
+$tabNav_itemLink_padding: 0 !default;
+$tabNav_itemLink_background: transparent !default;
+$tabNav_itemLink_color: #858C96 !default;
 
 // #inputText、#textarea 文本输入组件
-$textField_width: 270px;
-$textField_lineHeight: 22px;
-$textField_padding: 12px 16px;
-$textField_background: #fff;
-$textField_border: 1px solid $common_color_border;
-$textField_borderRadius: 5px;
+$textField_width: 270px !default;
+$textField_lineHeight: 22px !default;
+$textField_padding: 12px 16px !default;
+$textField_background: #fff !default;
+$textField_border: 1px solid $common_color_border !default;
+$textField_borderRadius: 5px !default;
 
-$inputText_height: $textField_lineHeight;
+$inputText_height: $textField_lineHeight !default;
 
-$textarea_height: $textField_lineHeight * 3;
+$textarea_height: $textField_lineHeight * 3 !default;
