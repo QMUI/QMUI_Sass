@@ -11,4 +11,4 @@ before_script:
   - npm install -g node-sass
   - npm install
 script:
-  - sh test/node_sass_compile_test.sh
+  - npm run test
