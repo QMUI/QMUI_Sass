@@ -1,13 +1,13 @@
 PATH
   remote: .
   specs:
-    QMUI_Sass (1.2.0)
+    QMUI_Sass (1.2.2)
       autoprefixer-rails (>= 6.0.3)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    autoprefixer-rails (9.5.0)
+    autoprefixer-rails (9.6.1.1)
       execjs
     execjs (2.7.0)
     rake (10.5.0)
