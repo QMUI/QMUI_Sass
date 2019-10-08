@@ -3,15 +3,13 @@ cache:
   directories:
     - node_modules
 node_js:
-  - "6"
-  - "7.0"
-  - "8.0"
-  - "stable"
+    - "8.10.0"
+    - "stable"
 before_install:
-  - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 1.12.3
+  - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 1.15.2
   - export PATH="$HOME/.yarn/bin:$PATH"
 before_script:
-  - npm install -g node-sass
-  - npm install
+  - yarn add global node-sass
+  - yarn install
 script:
   - npm run test
