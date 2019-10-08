@@ -25,5 +25,8 @@
     "bugs": {
         "url": "https://github.com/QMUI/QMUI_Sass/issues"
     },
-    "homepage": "http://qmuiteam.com/web/tools.html"
+    "homepage": "http://qmuiteam.com/web/tools.html",
+    "dependencies": {
+        "set-value": "^3.0.1"
+    }
 }
