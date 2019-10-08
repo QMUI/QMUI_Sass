@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    QMUI_Sass (1.2.2)
+    QMUI_Sass (1.2.3)
       autoprefixer-rails (>= 6.0.3)
 
 GEM

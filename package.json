@@ -1,6 +1,6 @@
 {
     "name": "qmui-sass",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "description": "Sass helper of QMUI Web, dealing with layout, appearance, device adaptation, math calculation and other SASS enhancement.",
     "scripts": {
         "test": "sh test/node_sass_compile_test.sh"
